@@ -1,0 +1,125 @@
+/* Selection colours */
+
+::selection 	 	{background: #9ff3ff;}
+::-moz-selection 	{background: #9ff3ff;}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: #9ff3ff;}
+
+img {max-width: 100%;}
+
+#logo img {opacity:0;
+-moz-transition: opacity 3s; /* Firefox 4 */
+-webkit-transition: opacity 3s; /* Safari and Chrome */
+-o-transition: opacity 3s;
+transition: opacity 3s;
+}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+
+body{margin:0; padding:0; background-color: #1f1f1f; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */} 
+
+h1 {color:#464646; font-family:'Adelle W01 light',georgia,'times new roman'; font-size:25; line-height:43px; font-weight:200;}
+
+h3 {color:#fff; font-family:'SackersGothicW01-Medium', helvetica; text-transform:lowercase; font-size:23px;}
+
+h4 {color:#cdcdcd; font-family:'Adelle W01 light',georgia,'times new roman';text-transform:lowercase;}
+
+h5 {font-family:'Adelle W01 Regular', georgia; font-size:15px; color:#656565; text-transform:titlecase;}
+
+a {text-decoration:none;}
+
+a:hover {color:#222222; opacity:.5; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+#backgroundimage{ background: url(../images/bg1.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-color:#cdcdcd}
+
+#logo {text-align:center; padding-top:65px; padding-bottom:220px; padding-left:10px; padding-right:10px;}
+
+/* HEADER */
+
+#topbar { margin-top:9px; height:35px; position:fixed; top:0px; margin:auto; z-index:100000; width:100%;
+
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 13%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(13%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 13%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 13%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 13%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 13%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+ul#nav {margin-top:9px;}
+#nav li{list-style:none; display: inline; list-style-type: none; padding-right: 20px; color:#fff; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px;}
+#nav li a {list-style:none; display: inline; list-style-type: none; padding-right: 20px; color:#fff; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px;}
+
+
+
+/* End HEADER */
+
+#boxes {text-align:center; margin-top:-100px; }
+.box {margin:20px 20px; display:inline-block;}
+.box img { -webkit-border-radius: 140px; -moz-border-radius: 140px; border-radius: 140px;}
+h4 span {display:block; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px; #cdcdcd}
+
+.topimage {float:right;}
+#topcopy {margin:20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:992px}
+p.about{font-family:'Adelle W01 light',georgia,'times new roman'; width:62%; line-height:25px; color:#1f1f1f; -moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2; column-gap: 20px;}
+p.songs h4 {width:62%; text-transform:lowercase;}
+p.songs {width:62%;font-family:'Adelle W01 light',georgia,'times new roman'; line-height:25px; color:#1f1f1f; }
+#drewlacey {margin:20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:992px}
+
+p.about2 {font-family:'Adelle W01 light',georgia,'times new roman'; padding-bottom:45px; width:62%; line-height:25px; color:#1f1f1f; -moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2; column-gap: 20px;}
+
+#aboutcontainer {margin-top:-20px; background-color:#cdcdcd; width:100%; clear:both;}
+#aboutcontainer2 { margin-top:-20px;background-color:#3c3c3c; width:100%; clear:both;}
+#container {margin-top:-20px;}
+#container2 {margin-top:-20px;}
+
+.drew {text-align:center; font-family:'Adelle W01 light',georgia,'times new roman'; font-size:50px; color:#fff; padding-top:10px; padding-bottom:30px;}
+.drew a{text-decoration:none; color:#afafb0;}
+.drew span {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:18px; display:block; padding-top:10px; color:#fff; text-transform:lowercase;}
+.drew span a{text-decoration:none; color:#afafb0;}
+
+.footer {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:13px; color:#cdcdcd;}
+.footer a{text-decoration:none; color:#cdcdcd; border-bottom:1px solid #fff;}
+.footer span {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:13px;  padding-top:10px; color:#cdcdcd; text-transform:lowercase;}
+.footer span a{text-decoration:none; color:#cdcdcd; border-bottom:1px solid #fff;}
+
+/* Music Pages */
+
+.drew2 {text-align:center; font-family:'Adelle W01 light',georgia,'times new roman'; font-size:50px; color:#fff; padding-top:55px; padding-bottom:30px;}
+.drew2 a{text-decoration:none; color:#afafb0; }
+.drew2 span {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:18px; display:block; padding-top:16px; color:#fff; text-transform:lowercase;}
+.drew2 span a{text-decoration:none; color:#afafb0;}
+
+#artistimage {text-align:center; background-color:black; margin-top:-30px;}
+#artistimage2 {text-align:center; background-color:#f8f8f8; margin-top:-30px;}
+#artistimage img{margin-bottom:-4px;}
+
+#boxes2 {text-align:center; margin-top:50px; margin-bottom:60px }
+.box {margin:20px 20px; display:inline-block;}
+.box img { -webkit-border-radius: 140px; -moz-border-radius: 140px; border-radius: 140px;}
+h4 span {display:block; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px; #cdcdcd;}
+
+#topcopy2 {margin:20px auto; padding-top:10px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:992px}
+#topcopy2 h1{width:62%; float:left;}
+#topcopy2 h1 span{display:block; font-family:'AdelleW01-SemiBoldItali'; color:#464646; font-size:16px;}
+#topcopy2 h3{width:62%; float:none;}
+
+p.about{font-family:'Adelle W01 light',georgia,'times new roman'; border-bottom: 1px #464646 solid; padding-bottom:45px; width:62%; line-height:25px; color:#1f1f1f; -moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2; column-gap: 20px;}
+.songtitle h3 {padding-top:20px;}
+p.about a{color:#454545; text-decoration:underline;}
+p.songs h4 {width:62%; text-transform:lowercase;}
+p.songs {width:62%;font-family:'Adelle W01 light',georgia,'times new roman'; line-height:25px; color:#1f1f1f; }
+.musicplayer {float:right; margin-top:25px;}
+.musicplayer2 {float:right; margin-top:25px; clear:both;}
+.musicplayer3{display:none;}
+
+img {
+   border: 0;
+}
+
+a img {
+   border: 0;
+}

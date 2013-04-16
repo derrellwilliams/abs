@@ -1,0 +1,90 @@
+/* Tablet Layout: 768
+Gutters: 16
+Outer margins: 32
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.topimage {display:none;}
+#topcopy {margin:20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:768px; text-align:center;}
+#topcopy2 {margin:0px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:768px; text-align:center;}
+#topcopy2 h1{float:none; width:60%; margin-left:20%; margin-right:20%;}
+#topcopy2 h3{float:none; width:60%; margin-left:20%; margin-right:20%;}
+p.songs {float:none; width:60%; margin-left:20%; margin-right:20%; text-align:left;}
+
+p.about{font-family:'Adelle W01 light',georgia,'times new roman'; width:60%; margin-left:20%; margin-right:20%; line-height:25px; color:#1f1f1f; -moz-column-count:1 ; -moz-column-gap:0px; -webkit-column-count: 0; -webkit-column-gap:0px; column-count: 0; column-gap:0px; text-align:left;}
+p.about2{font-family:'Adelle W01 light',georgia,'times new roman'; width:60%; margin-left:20%; margin-right:20%; line-height:25px; color:#1f1f1f; -moz-column-count:1 ; -moz-column-gap:0px; -webkit-column-count: 0; -webkit-column-gap:0px; column-count: 0; column-gap:0px; text-align:left;}
+	
+.drew {text-align:center; font-family:'Adelle W01 light',georgia,'times new roman'; font-size:35px; color:#fff; padding-top:10px; padding-bottom:30px;}
+.drew a{text-decoration:none; color:#fff; border-bottom:1px solid #fff;}
+.drew span {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px; display:block; padding-top:10px; color:#fff; text-transform:lowercase;}
+.drew span a{text-decoration:none; color:#fff; border-bottom:1px solid #fff;}
+.musicplayer {float:none; width:60%; margin-left:20%; margin-right:20%;}
+.musicplayer2 {float:none; width:60%; margin-left:20%; margin-right:20%;}
+}
+
+
+
+
+/* Wide Mobile Layout: 480px
+Gutters: 24px
+Outer margins: 26px
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.topimage {display:none;}
+#topcopy {margin:20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:480px; text-align:center;}
+#topcopy2 {margin:-20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:480px; text-align:center;}
+#topcopy2 h1{float:none; width:80%; margin-left:10%; margin-right:10%;}
+#topcopy2 h3{float:none; width:80%; margin-left:10%; margin-right:10%;}
+p.songs {float:none; width:80%; margin-left:10%; margin-right:10%; text-align:left;}
+
+
+p.about{font-family:'Adelle W01 light',georgia,'times new roman'; width:80%; margin-left:10%; margin-right:10%; line-height:25px; color:#1f1f1f; -moz-column-count:1 ; -moz-column-gap:0px; -webkit-column-count: 0; -webkit-column-gap:0px; column-count: 0; column-gap:0px;text-align:left;}
+p.about2{font-family:'Adelle W01 light',georgia,'times new roman'; width:80%; margin-left:10%; margin-right:10%; line-height:25px; color:#1f1f1f; -moz-column-count:1 ; -moz-column-gap:0px; -webkit-column-count: 0; -webkit-column-gap:0px; column-count: 0; column-gap:0px;text-align:left;}
+	
+.drew {text-align:center; font-family:'Adelle W01 light',georgia,'times new roman'; font-size:30px; color:#fff; padding-top:10px; padding-bottom:30px;}
+.drew a{text-decoration:none; color:#fff; border-bottom:1px solid #fff;}
+.drew span {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:12px; display:block; padding-top:10px; color:#fff; text-transform:lowercase;}
+.drew span a{text-decoration:none; color:#fff; border-bottom:1px solid #fff;}
+.musicplayer {float:none; width:80%; margin-left:10%; margin-right:10%;}
+.musicplayer2 {float:none; width:80%; margin-left:10%; margin-right:10%;}
+}
+
+/* Mobile Layout: 320px
+Gutters: 16px
+Outer margins: 32px.
+---------------------------------------------
+*/
+@media only screen and (max-width: 479px) {
+.topimage {display:none;}
+#topcopy {margin:20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:310px; text-align:center;}
+#topcopy2 {margin:-20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:310px; text-align:center;}
+#topcopy2 h1{float:none; width:80%; margin-left:10%; margin-right:10%; font-size:18px; line-height:25px;}
+#topcopy2 h3{float:none; width:80%; margin-left:10%; margin-right:10%;}
+p.songs {float:none; width:80%; margin-left:10%; margin-right:10%; text-align:left;}
+
+
+p.about{font-family:'Adelle W01 light',georgia,'times new roman'; width:80%; margin-left:10%; margin-right:10%; line-height:25px; color:#1f1f1f; -moz-column-count:1 ; -moz-column-gap:0px; -webkit-column-count: 0; -webkit-column-gap:0px; column-count: 0; column-gap:0px;text-align:left;}
+p.about2{font-family:'Adelle W01 light',georgia,'times new roman'; width:80%; margin-left:10%; margin-right:10%; line-height:25px; color:#1f1f1f; -moz-column-count:1 ; -moz-column-gap:0px; -webkit-column-count: 0; -webkit-column-gap:0px; column-count: 0; column-gap:0px;text-align:left;}
+.musicplayer {float:none; width:80%; margin-left:0%; margin-right:20%;}
+.musicplayer2 {float:none; width:80%; margin-left:0%; margin-right:20%;}
+
+	
+.drew {text-align:center; font-family:'Adelle W01 light',georgia,'times new roman'; font-size:40px; color:#fff; padding-top:10px; padding-bottom:30px;}
+.drew a{text-decoration:none; color:#fff; border-bottom:1px solid #fff;}
+.drew span {text-align:center; font-family:'SackersGothicW01-Medium', helvetica; font-size:12px; display:block; padding-top:10px; color:#fff; text-transform:lowercase;}
+.drew span a{text-decoration:none; color:#fff; border-bottom:1px solid #fff;}
+
+#nav li{list-style:none; display: inline; list-style-type: none; padding-right: 17px; color:#fff; font-family:'SackersGothicW01-Medium', helvetica; font-size:16px; padding-top:10px;}
+ul#nav {margin-top:9px; margin-left:-30px; text-align:center;}
+#nav li a {list-style:none; display: inline; list-style-type: none; padding-right: 20px; color:#fff; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px;}
+#logo {text-align:center; padding-top:100px; padding-bottom:220px; padding-left:10px; padding-right:10px;}
+
+.wrap {padding: 0 32px; width: 256px;}
+.grid12 {width: 350px;}
+.grid12-box {width: 254px;}
+}
