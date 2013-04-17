@@ -57,10 +57,10 @@ ul#nav {margin-top:9px;}
 
 /* End HEADER */
 
-#boxes {text-align:center; margin-top:-100px; }
+#boxes {text-align:center; margin-top:-90px; position: relative;}
 .box {margin:20px 20px; display:inline-block;}
 .box img { -webkit-border-radius: 140px; -moz-border-radius: 140px; border-radius: 140px;}
-h4 span {display:block; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px; #cdcdcd}
+h4 span {display:block; font-family:'SackersGothicW01-Medium', helvetica; font-size:14px; }
 
 .topimage {float:right;}
 #topcopy {margin:20px auto; padding-top:60px; padding-bottom:50px; padding-left:10px; padding-right:10px; width:992px}
